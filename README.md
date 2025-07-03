@@ -1,4 +1,4 @@
-Тест: test_registration.py
+    Тест: test_registration.py
 
 • TestCheckNewRegister
   • Проверяет успешную регистрацию с корректными данными.
