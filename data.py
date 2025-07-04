@@ -1,4 +1,5 @@
 
+
 class Credantial:
     name = 'Екатерина'
     email = 'Katniki@ya.ru'

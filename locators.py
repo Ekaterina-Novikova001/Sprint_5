@@ -1,8 +1,4 @@
-from selenium.webdriver.common.by import By
-
-class Locators:
-    button_entrance = (By.ID, 'entrance-button-id')  # Пример: замените на реальный локатор
-    inscription_button_entrance = (By.XPATH, '//button[text()="Inscription"]')
+from selenium.webdriver.common.by import BytesWarning
 
 
 class Locators:
