@@ -53,3 +53,4 @@ class TestCheckChapterSauce:
         active_tab = WebDriverWait(driver, timeout=10).until(EC.visibility_of_element_located(Locators.active_section))
         assert "Соусы" in active_tab.text
 
+

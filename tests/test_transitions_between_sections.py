@@ -10,13 +10,13 @@ class TestProfileToConstructorNavigation:
         driver = start_from_main_page
 
         # Ждем перехода на главную страницу
-        WebDriverWait(driver, timeout=10).until(EC.url_to_be(main_site))
+        WebDriverWait(driver, timeout: 10).until(EC.url_to_be(main_site))
 
         # Кликаем по кнопке "личный кабинет"
         driver.find_element(*Locators.button_personal_area).click()
 
         # Ждем загрузки надписи "конструктор"
-        WebDriverWait(driver, timeout=3).until(EC.visibility_of_element_located(
+        WebDriverWait(driver, timeout: 3).until(EC.visibility_of_element_located(
             Locators.inscription_profile))
 
         # Кликаем по кнопке "конструктор"

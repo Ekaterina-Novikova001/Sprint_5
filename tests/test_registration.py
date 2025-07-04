@@ -119,3 +119,5 @@ class TestCheckingErrorPassword:
 
         # Проверка текущего URL, должны остаться на странице регистрации
         assert driver.current_url == register_site
+
+

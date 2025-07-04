@@ -79,3 +79,4 @@ class TestEntranceOfBattonRegistrationForm:
 
         # Проверяем что мы на основной странице сайта
         assert driver.current_url == main_site
+
